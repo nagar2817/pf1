@@ -1,0 +1,21 @@
+#logo {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  svg path {
+    fill: none;
+    stroke: #44ca67;
+    stroke-width: 6px;
+    stroke-dasharray: 600px;
+    stroke-dashoffset: 600px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    animation: draw-stroke 7s linear forwards;
+  }
+  @keyframes draw-stroke {
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }

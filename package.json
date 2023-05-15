@@ -1,11 +1,11 @@
 {
   "name": "Rohit Nagar",
-  "description": "Personal Website",
+  "description": "Personal Website", 
   "version": "1.0.0",
-  "author": "Rohit Nagar <nagar.2@iitj.ac.in>",
+  "author": "Rohit Nagar <nagar.2@iitj.ac.in>",   
   "repository": {
     "type": "git",
-    "url": "https://github.com/hamzaPixl/hmounir"
+    "url": "https://github.com/nagar2817/pf1" 
   },
   "keywords": [
     "gatsby",

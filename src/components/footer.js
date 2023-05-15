@@ -77,7 +77,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/hamzaPixl/hmounir')
+    fetch('https://api.github.com/repos/nagar2817/pf1')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
@@ -105,7 +105,7 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/hamzaPixl/hmounir">
+        <a href="https://github.com/nagar2817/pf1">
           <div>Designed &amp; Built by Rohit Nagar </div>
 
           {githubInfo.stars && githubInfo.forks && (

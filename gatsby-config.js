@@ -2,12 +2,12 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'Hamza Mounir',
+    title: 'Rohit Nagar',
     description:
-      'Hamza Mounir is a software engineer who loves to create different kind of projects and share them.',
-    siteUrl: 'https://hmounir.com',
+      'Hy, I am Rohit Nagar Interested in Software Development',
+    siteUrl: 'https://rohitportfolio.gatsbyjs.io/',
     image: '/og.png',
-    twitterUsername: '@pixlhamza',
+    twitterUsername: '@0xRohit_',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -20,9 +20,9 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'Hmounir',
+        name: 'Rohit Nagar',
         description: `Personnal website`,
-        short_name: 'HamzaMounir',
+        short_name: 'RohitNagar',
         lang: `en`,
         start_url: '/',
         background_color: config.colors.dark,
